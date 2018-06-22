@@ -1,23 +1,38 @@
 \documentclass[answers]{exam}
 \begin{document}
-\firstpageheader{}{}{\bf\large Name \\ Class \\ Assignment \\ Due Date}
+\firstpageheader{}{}{\bf\large Name: Shawn \\ Class: Real Analysis }
 \runningheader{Name}{Class Assignment}{Due Date}
 
 \begin{questions}
 \question
-    This is the question.
+   \textbf{ Show that if M is the open interval (a,b), and p is in M, then p is a limit point of M.}
 
-\begin{solution}
-    This is the solution to the question.
+\begin{solution}\\
+   Let M be the open interval (a,b) and p$\in$M, where a,b$\in$${\rm I\!R}$. \\
+  Let S = ($p-\epsilon, p+\epsilon$), where $\epsilon$ is an arbitrary positive real number and $|\epsilon|$ is such that $S \subseteq M$. \\
+($p+\epsilon / 2$), p$\in$S for any $\epsilon$$\in$${\rm I\!R}^+$, and so S is an arbitrary interval that contains p and contains another point of M. \\
+Therefore p is a limit point of M.
 \end{solution}
 
 
 \question
 
-This is the second question
+\textbf{Show that if M is the closed interval [a,b], and p is not in M, then p is not a limit point of M.}
+
+\begin{solution}\\
+    Let M be the closed interval [a,b], and p$\notin$M. Assume, without loss of generality, that p $>$ b.\\ 
+Let $\epsilon = \frac{p-b}{2}$, and let S = ($p-\epsilon, p+\epsilon$). Hence $S \cap M = \emptyset$. \\ 
+Since S is an open interval that contains p but doesn't contain any element of M, p cannot be a limit point of M.
+\end{solution}
+
+
+
+\question
+
+Q goes here
 
 \begin{solution}
-    This is the solution to the question.
+   Ans goes here
 \end{solution}
 
 \end{questions}
